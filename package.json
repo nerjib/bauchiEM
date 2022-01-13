@@ -1,5 +1,5 @@
 {
-  "homepage": "https://BauchiEM.com/",
+  "homepage": "https://nerjib.github.io/bauchiEM",
   "name": "Bauchi-EM",
   "version": "1.9.0",
   "description": "Bauchi Election Monitoring",
@@ -12,6 +12,7 @@
     "chartist": "0.10.1",
     "classnames": "2.2.6",
     "file-saver": "^2.0.5",
+    "gh-pages": "^3.2.3",
     "google-map-react": "^2.1.9",
     "history": "4.10.1",
     "perfect-scrollbar": "1.5.0",
@@ -33,6 +34,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
